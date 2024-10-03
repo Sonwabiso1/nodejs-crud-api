@@ -35,7 +35,7 @@ Before starting the server, create an empty `items.json` file in the root direct
 You can start the API server by running:
 
 ```bash
-node app.js
+node server.js
 ```
 
 The server will run on `http://127.0.0.1:3000` by default.
@@ -107,7 +107,7 @@ Delete an item by ID.
 
 ## Code Breakdown
 
-### `app.js`
+### `server.js`
 
 - **http**: Handles HTTP requests.
 - **fs**: Manages reading and writing data to `items.json`.
